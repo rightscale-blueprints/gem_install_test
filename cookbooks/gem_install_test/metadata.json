@@ -23,6 +23,7 @@
     "gem_install_test/gem": {
       "display_name": "Gem to install",
       "description": "The RubyGem to install with the test.",
+      "default": "a",
       "recipes": [
         "gem_install_test::default"
       ],
@@ -36,6 +37,10 @@
     "gem_install_test/methods": {
       "display_name": "Gem install methods",
       "description": "The install methods to execute with the test, gem_package and/or chef_gem.",
+      "default": [
+        "gem_package",
+        "chef_gem"
+      ],
       "recipes": [
         "gem_install_test::default"
       ],
