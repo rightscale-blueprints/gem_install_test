@@ -41,6 +41,7 @@
         "gem_package",
         "chef_gem"
       ],
+      "type": "array",
       "recipes": [
         "gem_install_test::default"
       ],
@@ -48,7 +49,6 @@
 
       ],
       "calculated": false,
-      "type": "string",
       "required": "optional"
     }
   },

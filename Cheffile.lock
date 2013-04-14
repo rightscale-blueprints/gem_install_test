@@ -2,7 +2,7 @@ GIT
   remote: https://github.com/flaccid/cookbooks
   path: cookbooks/gem_install_test
   ref: master
-  sha: d8d2e31ee40d3401d1fd8ac1a20432cccd9ed61f
+  sha: b7e1c6f9b1fd480de66f393456223be702f4d893
   specs:
     gem_install_test (0.1.0)
 
