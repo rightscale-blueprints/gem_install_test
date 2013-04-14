@@ -1,0 +1,3 @@
+{
+  "run_list": [ "gem_install_test" ]
+}
